@@ -35,9 +35,9 @@ config/.env.local
 # OS files
 .DS_Store
 
-# Built binaries
-processor
-scanner
+# Built binaries (root directory only)
+/processor
+/scanner
 
 # SQLite database
 data/

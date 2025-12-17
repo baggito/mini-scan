@@ -26,7 +26,18 @@ go.work.sum
 
 # env file
 .env
+config/.env.local
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Built binaries
+processor
+scanner
+
+# SQLite database
+data/
